@@ -47,7 +47,7 @@ pip install python-docx lxml pandas openpyxl requests
 ```
 project-folder/
 │
-├── url_status_checker.py       # This script
+├── main.py       # This script
 ├── example.docx                # Your input Word document
 ├── url_status_report.xlsx      # Generated output
 ```
@@ -72,7 +72,7 @@ with open('example.docx', 'rb') as f:
 ### ▶️ Run the script
 
 ```bash
-python url_status_checker.py
+python main.py
 ```
 
 ### ✅ Output
